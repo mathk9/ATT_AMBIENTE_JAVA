@@ -9,6 +9,7 @@ public class Cientific_Functions {
     private double squared_root;
     private double sin;
     private double cos;
+    private double tan;
     private double log;
     private double pi = 3.14159265359;
     private double e = 2.71828;
@@ -41,6 +42,12 @@ public class Cientific_Functions {
     public double cos(double num){
         this.cos = Math.cos(num);
         return cos;
+    }
+
+    //Calcula a tangente de um número
+    public double tan(double num){
+        this.tan = Math.tan(num);
+        return tan;
     }
     
     public double log(double numA, double numB) {
