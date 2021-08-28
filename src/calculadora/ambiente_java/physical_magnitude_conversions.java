@@ -11,7 +11,7 @@ public class physical_magnitude_conversions {
     private double libra = 0.002205;
     private double miligramas = 1000;
 
-    private double standardize_unit_massiness(String unity, double value) {
+    public double standardize_unit_massiness(String unity, double value) {
         double conv;
         switch(unity) {
             case "g":
@@ -38,7 +38,7 @@ public class physical_magnitude_conversions {
         return conv;
     }
     
-    private double convert_unit_to(String unity, double value) {
+    public double convert_unit_to(String unity, double value) {
         double conv;
         switch(unity) {
             case "g":
